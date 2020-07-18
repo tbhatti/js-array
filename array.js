@@ -1,5 +1,5 @@
 /**======================================================
-Question No. 1: Shift left and shift right string?
+Question No. 1: Shift left and shift right string? Updated by Abdul
 ======================================================**/
 /**Shift string characters 
 Write a function which accepts string, shiftLeft and shiftRight parameteres
