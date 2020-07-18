@@ -1,4 +1,5 @@
-# The file contains solutions for the following questions using `JavaScript`
+# Solution for following questions using 
+`JavaScript`
 
 - [x] Question No. 1: Shift left and shift right string?
 - [x] Question No. 2: Find Unique elements in Array
