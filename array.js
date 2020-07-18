@@ -34,3 +34,27 @@ Question No. 2: Find Unique elements in Array
 	if(con.indexOf(cur) < 0) con.push(cur)
 		return con;
 }, []);
+
+/**=====================================================
+Question No. 3: Write a function which take more than three arrays as argument and combine all arrays into one, and 
+remove duplicate items from array and return sorted array
+======================================================**/
+/**Answer: */
+function merge() {
+    let resultArray = [];
+    for(let i =0; i< arguments.length; i++) {
+        resultArray = resultArray.concat(arguments[i]);
+    }
+    let test = findUniq(resultArray);
+    console.log(test.sort());
+
+}
+function findUniq(arr) {
+    let unique = arr.reduce((acc, cur) => {
+        if(acc.indexOf(cur) < 0) acc.push(cur);
+        return acc;
+    }, []);
+    return unique;
+}
+
+merge(['alpha', 'charlie', 'delta'], ['bravo', 'delta'], ['golf','delta'])
